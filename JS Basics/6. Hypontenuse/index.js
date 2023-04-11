@@ -42,7 +42,7 @@ let a;
 let b;
 
 // Calculate the length of the hypotenuse using the Pythagorean theorem
-document.getElementById("submit").onClick = function(){
+document.getElementById("submit").onclick = function(){
 
     a = document.getElementById("aTextBox").value;
     a = Number(a)
