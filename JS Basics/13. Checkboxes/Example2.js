@@ -19,6 +19,8 @@ document.getElementById("clickMe").onclick = function(){
   if(visaCard.checked){
     console.log("You have selected the Visa option");
   }
+/* I had to put equal true for some reason for the else if statements
+will revisit in the futture to see why */
   else if(masterCard.checked == true){
     console.log("You have selected the Master Card option");
   }
