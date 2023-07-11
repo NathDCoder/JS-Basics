@@ -11,4 +11,4 @@ for(let i = 1; i <= rows; i+=1){
         document.getElementById("myRectangle").innerHTML += symbol;
     }
     document.getElementById("myRectangle").innerHTML += "<br>";
-} 
+}
